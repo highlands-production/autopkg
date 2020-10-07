@@ -21,7 +21,7 @@
             <key>Arguments</key>
             <dict>
                 <key>appcast_url</key>
-                <string>https://api.renewedvision.com/v1/pro/upgrade?platform=macos&osVersion=10.15&includeNotes=false&appVersion=7&buildNumber=117571846&format=sparkle</string>
+                <string>https://api.renewedvision.com/v1/pro/upgrade?platform=macos&amp;osVersion=10.15&amp;includeNotes=false&amp;appVersion=7&amp;buildNumber=117571846&amp;format=sparkle</string>
             </dict>
         </dict>
         <dict>
