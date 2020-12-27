@@ -28,6 +28,10 @@
                 <dict>
                     <key>Applications</key>
                     <string>0775</string>
+                    <key>Library/PrivlegedHelperTools</key>
+                    <string>0775</string>
+                    <key>Library/LaunchDaemons</key>
+                    <string>0775</string>
                 </dict>
             </dict>
         </dict>
