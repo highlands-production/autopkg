@@ -1,0 +1,5 @@
+#!/bin/bash
+set -x
+
+# Load the LaunchDaemons
+/bin/launchctl load /Library/LaunchDaemons/com.renewedvision.InstallHelper.plist
