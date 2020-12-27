@@ -76,7 +76,7 @@
                 <key>source_path</key>
                 <string>%RECIPE_CACHE_DIR%/com.renewedvision.InstallHelper.plist</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Library/LaunchDaemons/com.renewedvision.InstallHelper.plist</string>
+                <string>%pkgroot%/Library/LaunchDaemons/</string>
             </dict>
         </dict>
         <dict>
@@ -107,9 +107,9 @@
                     <string>com.renewedvision.propresenter.pkg</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
-                    <key>chown</key>
                     <key>scripts</key>
                     <string>ProPresenter_Scripts</string>
+                    <key>chown</key>
                     <array>
                         <dict>
                             <key>path</key>
