@@ -123,6 +123,14 @@
                             <key>group</key>
                             <string>wheel</string>
                         </dict>
+                        <dict>
+                            <key>path</key>
+                            <string>Library/LaunchDaemons/com.renewedvision.InstallHelper.plist</string>
+                            <key>user</key>
+                            <string>root</string>
+                            <key>group</key>
+                            <string>wheel</string>
+                        </dict>
                     </array>
                 </dict>
             </dict>
