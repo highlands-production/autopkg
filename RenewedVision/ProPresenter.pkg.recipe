@@ -28,7 +28,7 @@
                 <dict>
                     <key>Applications</key>
                     <string>0775</string>
-                    <key>Library/PrivlegedHelperTools</key>
+                    <key>Library/PrivilegedHelperTools</key>
                     <string>0775</string>
                     <key>Library/LaunchDaemons</key>
                     <string>0775</string>
