@@ -69,7 +69,7 @@
                 <key>source_path</key>
                 <string>%pkgroot%/Applications/ProPresenter.app/Contents/Library/LaunchServices/com.renewedvision.InstallHelper</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Library/PrivlegedHelperTools/</string>
+                <string>%pkgroot%/Library/PrivilegedHelperTools/</string>
             </dict>
         </dict>
         <dict>
