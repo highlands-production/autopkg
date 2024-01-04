@@ -78,9 +78,9 @@
             <key>Arguments</key>
             <dict>
                 <key>source_path</key>
-                <string>%RECIPE_DIR%/com.renewedvision.Helper.plist</string>
+                <string>%RECIPE_DIR%/com.renewedvision.HelperV2.plist</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Library/LaunchDaemons/com.renewedvision.Helper.plist</string>
+                <string>%pkgroot%/Library/LaunchDaemons/com.renewedvision.HelperV2.plist</string>
             </dict>
         </dict>
         <dict>
@@ -125,7 +125,7 @@
                         </dict>
                         <dict>
                             <key>path</key>
-                            <string>Library/LaunchDaemons/com.renewedvision.Helper.plist</string>
+                            <string>Library/LaunchDaemons/com.renewedvision.HelperV2.plist</string>
                             <key>user</key>
                             <string>root</string>
                             <key>group</key>

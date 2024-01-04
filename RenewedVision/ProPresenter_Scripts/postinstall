@@ -1,17 +1,24 @@
 #!/bin/bash
 set -x
 
+if [ -f "/Library/LaunchDaemons/com.renewedvision.InstallHelper.plist" ]; then
+	/bin/launchctl unload /Library/LaunchDaemons/com.renewedvision.InstallHelper.plist
+	rm /Library/LaunchDaemons/com.renewedvision.InstallHelper.plist
+fi
+
+# Remove really old versions...
 if [ -f "/Library/PrivilegedHelperTools/com.renewedvision.InstallHelper" ]; then
-    if [ -f "/Library/LaunchDaemons/com.renewedvision.InstallHelper.plist" ]; then
-        /bin/launchctl unload /Library/LaunchDaemons/com.renewedvision.InstallHelper.plist
-        rm /Library/LaunchDaemons/com.renewedvision.InstallHelper.plist
-    fi
     rm -f /Library/PrivilegedHelperTools/com.renewedvision.InstallHelper
 fi
 
+if [ -f "/Library/LaunchDaemons/com.renewedvision.Helper.plist" ]; then
+	/bin/launchctl unload /Library/LaunchDaemons/com.renewedvision.Helper.plist
+	rm /Library/LaunchDaemons/com.renewedvision.Helper.plist
+fi
+# Remove pre-7.15 versions...
 if [ -f "/Library/PrivilegedHelperTools/com.renewedvision.Helper" ]; then
     rm -f /Library/PrivilegedHelperTools/com.renewedvision.Helper
 fi
 
 # Load the LaunchDaemons
-/bin/launchctl load /Library/LaunchDaemons/com.renewedvision.Helper.plist
+/bin/launchctl load /Library/LaunchDaemons/com.renewedvision.HelperV2.plist

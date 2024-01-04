@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>Label</key>
-	<string>com.renewedvision.Helper</string>
+	<string>com.renewedvision.HelperV2</string>
 	<key>MachServices</key>
 	<dict>
-		<key>com.renewedvision.Helper</key>
+		<key>com.renewedvision.HelperV2</key>
 		<true/>
 	</dict>
 	<key>Program</key>
-	<string>/Library/PrivilegedHelperTools/com.renewedvision.Helper</string>
+	<string>/Library/PrivilegedHelperTools/com.renewedvision.HelperV2</string>
 	<key>ProgramArguments</key>
 	<array>
-		<string>/Library/PrivilegedHelperTools/com.renewedvision.Helper</string>
+		<string>/Library/PrivilegedHelperTools/com.renewedvision.HelperV2</string>
 	</array>
 </dict>
 </plist>
