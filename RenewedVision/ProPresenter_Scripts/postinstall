@@ -9,5 +9,9 @@ if [ -f "/Library/PrivilegedHelperTools/com.renewedvision.InstallHelper" ]; then
     rm -f /Library/PrivilegedHelperTools/com.renewedvision.InstallHelper
 fi
 
+if [ -f "/Library/PrivilegedHelperTools/com.renewedvision.Helper" ]; then
+    rm -f /Library/PrivilegedHelperTools/com.renewedvision.Helper
+fi
+
 # Load the LaunchDaemons
 /bin/launchctl load /Library/LaunchDaemons/com.renewedvision.Helper.plist
